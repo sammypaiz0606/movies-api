@@ -2,6 +2,10 @@
 body {
 	background:#000;
 }
+h1 {
+	color:#000;
+/*	margin:20px;
+*/}
 
 .wrapper {
 	text-align: center;
@@ -10,6 +14,58 @@ body {
 
 
 }
-#output {
+/*#output {
 	text-align: center;
+}*/
+
+
+
+ul li {
+	margin-bottom:10px;
+}
+#wrap {
+	margin-top:20px;
+}
+#infoWrap {
+	border:1px solid #000;
+	display:none;
+	padding:10px;
+	background: url('../images/background.jpg')no-repeat;
+	background-size:cover;
+	border-radius:5px;
+	
+}
+
+.gallery {
+  max-width: 500px;
+  max-height:400px;
+  display:inline-block;
+  border-radius:5px;
+  text-align:left;
+  
+
+}
+/*#title {
+	margin-bottom:20px;
+}
+#info {
+	margin-bottom:80px;
+
+}*/
+.gallery-1 {
+
+}
+#gallery-2 {
+	display:none;
+
+
+}
+
+ul li {
+	list-style:none;
+	
+}
+ img {
+	width:400px;
+	height:400px;
 }
