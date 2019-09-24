@@ -6,6 +6,18 @@ h1 {
 	color:#000;
 /*	margin:20px;
 */}
+#h1Title {
+	color:#d3322a;
+	position: relative;
+	top:20px;
+	font-family:Plane-Crash;
+	
+}
+@font-face {
+	font-family: Plane-Crash;
+	src: url('../fonts/Plane-Crash.ttf');
+}
+
 
 .wrapper {
 	text-align: center;

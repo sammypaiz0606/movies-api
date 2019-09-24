@@ -92,7 +92,7 @@ button.addEventListener('click', runSearch);
 		console.log(data);
 		console.log(JSON.stringify(data, null, 4));
 		document.querySelector('img').src = baseImageURL + 'w300' + data.results[0].poster_path;
-		document.querySelector('h1').innerHTML= data.results[0].title;
+		document.querySelector('h2').innerHTML= data.results[0].title;
 		document.querySelector('p').innerHTML= data.results[0].overview;
 		document.querySelector('span').innerHTML= data.results[0].release_date;
 		document.querySelector('.lang').innerHTML = data.results[0].original_language;
