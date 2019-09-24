@@ -94,10 +94,19 @@ button.addEventListener('click', runSearch);
 		document.querySelector('img').src = baseImageURL + 'w300' + data.results[0].poster_path;
 		document.querySelector('h1').innerHTML= data.results[0].title;
 		document.querySelector('p').innerHTML= data.results[0].overview;
+		document.querySelector('span').innerHTML= data.results[0].release_date;
+		document.querySelector('.lang').innerHTML = data.results[0].original_language;
 
 
 
 	})
+}
+
+document.getElementById('button').addEventListener('click', displayInfo);
+
+function displayInfo() {
+	document.getElementById('infoWrap').style.display='inline-block';
+	document.getElementById('gallery-2').style.display='inline-block';
 }
 
 document.addEventListener('DOMContentLoaded', getConfig);
