@@ -1,11 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&family=Roboto:ital,wght@0,500;1,400&display=swap');
 
+:root {
+	--md-dark-color: #1d1d1d;
+	--dark-color: #171717;
+	--light-dark-color: #292929;
+	--yellow-color: #d4aa11;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Inter', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+	display:block;
+}
+
+.wrapper {
+	min-height: 100vh;
+	background: var(--dark-color);
+}
+
+.wrapper .container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+.search-container {
+	background: var(--md-dark-color);
+	height: 180px;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+}
+/* 
 body {
 	background:#000;
 }
 h1 {
 	color:#000;
-/*	margin:20px;
-*/}
+	margin:20px;
+}
 #h1Title {
 	color:#d3322a;
 	position: relative;
@@ -26,9 +71,9 @@ h1 {
 
 
 }
-/*#output {
+#output {
 	text-align: center;
-}*/
+}
 
 
 
@@ -57,13 +102,13 @@ ul li {
   
 
 }
-/*#title {
+#title {
 	margin-bottom:20px;
 }
 #info {
 	margin-bottom:80px;
 
-}*/
+}
 .gallery-1 {
 
 }
@@ -80,4 +125,4 @@ ul li {
  img {
 	width:400px;
 	height:400px;
-}
+} */
