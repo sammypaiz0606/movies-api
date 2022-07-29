@@ -92,26 +92,25 @@ img{
 	width: 350px;
 }
 
-.search-list {
-	position: absolute;
-	right: 0;
-	top: 100%;
-	max-height: 500px;
-	overflow-y: scroll;
-	z-index: 10;
+.search-list{
+    position: absolute;
+    right: 0;
+    top: 100%;
+    max-height: 500px;
+    overflow-y: scroll;
+    z-index: 10;
 }
 
-.search-list .search-list-item {
-	background: var(--light-dark-color);
-	padding: 0.5rem;
-	border-bottom: 1px solid var(--dark-color);
-	width: calc(350px - 8px);
-	color: #fff;
-	cursor:pointer;
-	-webkit-transition: background-color 200ms ease;
+.search-list .search-list-item{
+    background-color: var(--light-dark-color);
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--dark-color);
+    width: calc(350px - 8px);
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: background-color 200ms ease;
     -o-transition: background-color 200ms ease;
     transition: background-color 200ms ease;
-
 }
 
 .search-list .search-list-item:hover {
@@ -123,89 +122,48 @@ img{
 	align-items: center;
 }
 
-.search-list-thumbnail img {
+.search-item-thumbnail img {
 	width:40px;
-}
-/* 
-body {
-	background:#000;
-}
-h1 {
-	color:#000;
-	margin:20px;
-}
-#h1Title {
-	color:#d3322a;
-	position: relative;
-	top:20px;
-	font-family:Plane-Crash;
-	
-}
-@font-face {
-	font-family: Plane-Crash;
-	src: url('../fonts/Plane-Crash.ttf');
+	margin-right: 1rem;
 }
 
-
-.wrapper {
-	text-align: center;
-	background: url('../images/movie-back6.jpg')no-repeat;
-	background-size:cover;
-
-
-}
-#output {
-	text-align: center;
+.search-item-info h3 {
+	font-weight: 600px;
+	font-size:1rem;
 }
 
-
-
-ul li {
-	margin-bottom:10px;
+.search-item-info p {
+	font-size: 0.8rem;
+	margin-top: 0.5rem;
+	font-weight: 600px;
+	opacity: 0.6;
 }
-#wrap {
-	margin-top:20px;
+
+/* thumbnail */
+.search-list::-webkit-scrollbar{
+    width: 8px;
 }
-#infoWrap {
-	border:1px solid #000;
+.search-list::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+            box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.search-list::-webkit-scrollbar-thumb{
+    background-color: var(--yellow-color);
+    outline: none;
+    border-radius: 10px;
+}
+
+/* js related class */
+.hide-search-list {
 	display:none;
-	padding:10px;
-	background: url('../images/background.jpg')no-repeat;
-	background-size:cover;
-	border-radius:5px;
-	
 }
 
-.gallery {
-  max-width: 500px;
-  max-height:400px;
-  display:inline-block;
-  border-radius:5px;
-  text-align:left;
-  
-
-}
-#title {
-	margin-bottom:20px;
-}
-#info {
-	margin-bottom:80px;
-
-}
-.gallery-1 {
-
-}
-#gallery-2 {
-	display:none;
-
-
+.result-container {
+	padding: 3rem 0;
 }
 
-ul li {
-	list-style:none;
-	
+.movie-poster img {
+	max-width: 300px;
+	margin: 0 auto;
 }
- img {
-	width:400px;
-	height:400px;
-} */
