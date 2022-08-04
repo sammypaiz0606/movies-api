@@ -8,6 +8,7 @@
 	--dark-red-color:#440a0b;
 	--light-red-color:#ff1e20;
 	--light-gray-color: #f5f8f7;
+	--lighter-gray-color: #F7FAF9;
 }
 *{
     padding: 0;
@@ -101,7 +102,7 @@ img{
         align-self: center;
     margin-right: 1rem;
     font-size: 2.3rem;
-    color: var(--light-red-color);
+    color: var(--lighter-gray-color);
     font-weight: 500;
     margin-bottom: 1.5rem;
 }
@@ -174,7 +175,7 @@ img{
 }
 
 .search-list::-webkit-scrollbar-thumb{
-    background-color: var(--light-red-color);
+    background-color: var(--light-gray-color);
     outline: none;
     border-radius: 10px;
 }
@@ -207,7 +208,7 @@ img{
 /* movie info stylings */
 .movie-title {
 	font-size: 2.3rem;
-	color: var(--light-red-color);
+	color: var(--light-gray-color);
 }
 .movie-misc-info {
 	list-style: none;
@@ -252,7 +253,7 @@ img{
 }
 
 .movie-info .language {
-	color: var(--light-red-color);
+	color: var(--light-gray-color);
 	font-style: italic;
 }
 
@@ -262,7 +263,7 @@ img{
 }
 
 .movie-info .awards {
-	color: var(--light-red-color);
+	color: var(--light-gray-color);
 	margin: 1rem 0.7rem 0 0;
 }
 
